@@ -1,7 +1,10 @@
 # AWS-EKS-2048game
 This repo is about how deploy 2048 game using AWS EKS service
 
-List of commands
+https://medium.com/@csarat424/eks-end-to-end-project-27abb0adcdd9
+
+***********************************
+#####List of commands#####
 # 2048 App
 
 Create Fargate profile
@@ -90,6 +93,3 @@ eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 Delete the cluster
 
 eksctl delete cluster --name demo-cluster --region us-east-1
-
-
-https://medium.com/@csarat424/eks-end-to-end-project-27abb0adcdd9
